@@ -22,8 +22,4 @@ public class Produto {
     private String foto;
     @Column(name = "descricao")
     private String descricao;
-    @Column(name = "preco")
-    private Double preco;
-    @Column(name = "estoque")
-    private Integer estoque;
 }

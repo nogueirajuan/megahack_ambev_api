@@ -9,7 +9,7 @@ import java.util.List;
 @Table(name = "lojas")
 @Getter
 @Builder
-@ToString
+@ToString(callSuper = false)
 @NoArgsConstructor
 @AllArgsConstructor
 public class Store {
@@ -23,8 +23,6 @@ public class Store {
     @JoinColumn(name = "localizacao")
     private Location location;
 
-    @ManyToMany(mappedBy = "id")
-    private List<Produto> produtos;
-
-    //private List<Contato> contatos;
+    @OneToMany(mappedBy = "store")
+    private List<StoreProduct> storeProduct;
 }
