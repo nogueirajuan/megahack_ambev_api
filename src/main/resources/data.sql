@@ -18,4 +18,5 @@ INSERT INTO produtos (id, nome, foto, descricao) VALUES
     (3, 'Cerveja Colorado 479ml'    ,'img/produtos/skol_267.jpg', 'descricao')
 ;
 
-INSERT INTO store_product (id, store_id, product_id, preco, estoque) VALUES (1, 1, '1.99', 1000);
+-- relaciona produtos a lojas com preco e estoque
+INSERT INTO store_product (id, store_id, product_id, preco, estoque) VALUES (1, 1, 1, '1.99', 1000);
