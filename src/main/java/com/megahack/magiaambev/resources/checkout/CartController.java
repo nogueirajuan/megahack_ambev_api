@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping(name = "/cart")
+@RequestMapping(value = "/cart")
 public class CartController {
 
     @Autowired

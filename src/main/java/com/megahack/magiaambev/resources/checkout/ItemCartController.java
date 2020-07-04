@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(name = "/cart/items")
+@RequestMapping(value = "/cart/items")
 public class ItemCartController {
 
     @Autowired
@@ -25,7 +25,6 @@ public class ItemCartController {
     @Autowired
     private ItemCartRepository itemCartRepository;
 
-    /*
     @PostMapping
     public ResponseEntity addItem() {
         return ResponseEntity.ok().body(null);
@@ -34,7 +33,7 @@ public class ItemCartController {
     @DeleteMapping
     public ResponseEntity removeItem() {
         return ResponseEntity.ok().body(null);
-    } */
+    }
 
     @PutMapping
     public ResponseEntity updateQuantity(@RequestBody UpdateItemCartQuantityRequest request) {

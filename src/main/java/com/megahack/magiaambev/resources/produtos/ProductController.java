@@ -7,19 +7,19 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(name = "/produtos", method = RequestMethod.GET)
+@RequestMapping("/produtos")
 public class ProductController {
 
     @Autowired
     private ProdutosRepository repository;
 
-    @GetMapping(name = "/{id}")
-    public ResponseEntity findOne(@PathVariable Integer id) {
+    @GetMapping("/{id}")
+    public ResponseEntity findOneProduct(@PathVariable Integer id) {
         return ResponseEntity.ok().body(repository.findById(id));
     }
 
     @GetMapping
-    public ResponseEntity findAll() {
+    public ResponseEntity findAllProducts() {
         return ResponseEntity.ok().body(repository.findAll());
     }
 
@@ -28,12 +28,12 @@ public class ProductController {
         return ResponseEntity.ok().body(null);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public ResponseEntity update() {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).body(null);
     }
 
-    @DeleteMapping(name = "/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity deleteProduct(@PathVariable Integer id) {
         repository.deleteById(id);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).body(null);
