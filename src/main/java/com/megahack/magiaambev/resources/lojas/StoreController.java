@@ -13,28 +13,29 @@ public class StoreController {
     @Autowired
     private StoreRepository repository;
 
+    /*
     @GetMapping
-    public ResponseEntity findOne(Integer id) {
+    public ResponseEntity findOneStore(Integer id) {
         return ResponseEntity.ok().body(repository.findById(id));
     }
 
     @GetMapping
-    public ResponseEntity findAll() {
+    public ResponseEntity findAllStores() {
         return ResponseEntity.ok().body(repository.findAll());
     }
 
     @PostMapping
-    public ResponseEntity create() {
+    public ResponseEntity createStore() {
         return ResponseEntity.ok().body(null);
     }
 
     @PutMapping
-    public ResponseEntity update() {
+    public ResponseEntity updateStore() {
         return ResponseEntity.status(HttpStatus.NO_CONTENT).body(null);
-    }
+    } */
 
     @DeleteMapping(name = "{id}")
-    public ResponseEntity delete(@PathVariable Integer id) {
+    public ResponseEntity deleteStore(@PathVariable Integer id) {
         repository.deleteById(id);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).body(null);
     }

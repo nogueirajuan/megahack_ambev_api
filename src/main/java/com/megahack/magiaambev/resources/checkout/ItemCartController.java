@@ -13,7 +13,6 @@ import org.springframework.data.domain.Example;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.Optional;
 
 @RestController
@@ -26,30 +25,31 @@ public class ItemCartController {
     @Autowired
     private ItemCartRepository itemCartRepository;
 
+    /*
     @PostMapping
-    public ResponseEntity addProduto() {
+    public ResponseEntity addItem() {
         return ResponseEntity.ok().body(null);
     }
 
     @DeleteMapping
-    public ResponseEntity removeProduto() {
+    public ResponseEntity removeItem() {
         return ResponseEntity.ok().body(null);
-    }
+    } */
 
     @PutMapping
     public ResponseEntity updateQuantity(@RequestBody UpdateItemCartQuantityRequest request) {
 
         Cart cart = cartRepository.findOne(
                 Example.of(Cart.builder()
-                        .user(User.builder().id(request.getCodigoCliente()).build())
-                        .store(Store.builder().id(request.getCodigoLoja()).build())
+                        .user(User.builder().id(request.getUserId()).build())
+                        .store(Store.builder().id(request.getStoreId()).build())
                         .build())
         ).orElseThrow(RuntimeException::new);
 
-        Optional<ItemCart> produtoCarrinho = cart.getItems().stream().filter(p -> p.getProduto().getId().equals(request.getCodigoProduto())).findFirst();
+        Optional<ItemCart> produtoCarrinho = cart.getItems().stream().filter(p -> p.getProduto().getId().equals(request.getProductId())).findFirst();
 
         if (produtoCarrinho.isPresent()) {
-            produtoCarrinho.get().setQuantidade(request.getQuantidade());
+            produtoCarrinho.get().setQuantidade(request.getQuantity());
             //salva nova quantidade do produto no carrinho
             itemCartRepository.save(produtoCarrinho.get());
         }
