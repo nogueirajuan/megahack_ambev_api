@@ -14,11 +14,11 @@ Os integrantes do time 79 são:
 - Business - Douglas Batista  
 - UX - Gabriela Biserra
 
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=Business) `Douglas Batista`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Gabriela Biserra`
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Gabriel França`
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Gustavo Rodolfo`
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Juan Silva Nogueira`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=B) `Douglas Batista`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=UX) `Gabriela Biserra`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=DEV) `Gabriel França`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=DEV) `Gustavo Rodolfo`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=DEV) `Juan Silva Nogueira`
 
 
 ## Tecnologias e requisitos
