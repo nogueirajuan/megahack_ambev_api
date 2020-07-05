@@ -8,11 +8,11 @@ Neste projeto estão todas as APIs utilizadas na integração do APP Magia Ambev
 
 Os integrantes do time 79 são:
 
-Engenheiro - Juan Silva Nogueira\
-Engenheiro - Gustavo Rodolfo\
-Engenheiro - Gabriel França\ 
-Business - Douglas Batista\ 
-UX - Gabriela Biserra
+- Engenheiro - Juan Silva Nogueira\
+- Engenheiro - Gustavo Rodolfo\
+- Engenheiro - Gabriel França\ 
+- Business - Douglas Batista\ 
+- UX - Gabriela Biserra
 
 
 ## Tecnologias e requisitos
