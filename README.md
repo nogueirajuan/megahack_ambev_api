@@ -37,9 +37,7 @@ Para ter visão de todas APIs construídas, basta acessar a url [localhost:8080/
 
 Com a aplicação em execução, é possível consultar a base de dados acessando [localhost:8080/h2-console](localhost:8080/h2-console)
 
-url: jdbc:h2:mem:magiaambev
-
-usuário: time79
-
-password: megahack
+*URL:* jdbc:h2:mem:magiaambev  
+*Usuário:* time79  
+*Senha:* megahack  
 
