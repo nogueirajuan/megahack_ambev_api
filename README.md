@@ -1,8 +1,8 @@
-#Projeto time 79 - Megahack Desafio Ambev
+# Projeto time 79 - Megahack Desafio Ambev
 
 Descrição breve sobre o nosso Projeto
 
-Neste projeto foram construídas todas as APIs utilizadas na integração do APP Magia Ambev.
+Neste projeto estão todas as APIs utilizadas na integração do APP Magia Ambev.
 
 ## Integrantes
 
