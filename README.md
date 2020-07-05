@@ -6,7 +6,7 @@ Neste projeto estão todas as APIs utilizadas na integração do APP Magia Ambev
 
 ## Integrantes
 
-Os integrantes do time 79 são:
+Os integrantes do time 79 - desabio Ambev são:
 
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=B) `Douglas Batista`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=UX) `Gabriela Biserra`
@@ -23,7 +23,7 @@ Para executar o projeto é necessário ambiente com Maven 3.x.x + e Java 8+ util
 
 ## Uso
 
-Para rodar o projeto, a partir do diretório raiz da aplicação basta executar o seguinte comando
+Para rodar o projeto, a partir do diretório raiz da aplicação, basta executar o seguinte comando
 
 ```bash
 mvn spring-boot:run
