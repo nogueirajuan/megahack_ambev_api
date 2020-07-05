@@ -31,11 +31,11 @@ mvn spring-boot:run
 
 ## Documentação
 
-Para ter visão de todas APIs construídas, basta acessar a url [localhost:8080/swagger-ui.html](localhost:8080/swagger-ui.html)
+Para ter visão de todas APIs construídas, basta acessar a url [localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ## Base de dados
 
-Com a aplicação em execução, é possível consultar a base de dados acessando [localhost:8080/h2-console](localhost:8080/h2-console)
+Com a aplicação em execução, é possível consultar a base de dados acessando [localhost:8080/h2-console](http://localhost:8080/h2-console)
 
 **URL:** jdbc:h2:mem:magiaambev  
 **Usuário:** time79  
