@@ -1,6 +1,6 @@
 # Projeto time 79 - Megahack Desafio Ambev
 
-Descrição breve sobre o nosso Projeto
+Nosso projeto visa aprimorar a experiência do Cliente de forma aprimorada fazendo uso de IOT para coletar informações sobre o comportamento do cliente em frente as prateleiras de produtos, conseguindo identificar quais produtos despertam a atenção e quais produtos são realmente adquiridos pelo cliente.
 
 Neste projeto estão todas as APIs utilizadas na integração do APP Magia Ambev.
 
@@ -9,13 +9,9 @@ Neste projeto estão todas as APIs utilizadas na integração do APP Magia Ambev
 Os integrantes do time 79 são:
 
 Engenheiro - Juan Silva Nogueira
-
 Engenheiro - Gustavo Rodolfo
-
 Engenheiro - Gabriel França
-
 Business - Douglas Batista
-
 UX - Gabriela Biserra
 
 
@@ -35,11 +31,11 @@ mvn spring-boot:run
 
 ## Documentação
 
-Para ter visão de todas APIs construídas, basta acessar a url localhost:8080/swagger-ui.html
+Para ter visão de todas APIs construídas, basta acessar a url [localhost:8080/swagger-ui.html](localhost:8080/swagger-ui.html)
 
 ## Base de dados
 
-Com a aplicação em execução, é possível consultar a base de dados acessando localhost:8080/h2-console
+Com a aplicação em execução, é possível consultar a base de dados acessando [localhost:8080/h2-console](localhost:8080/h2-console)
 
 url: jdbc:h2:mem:magiaambev
 
