@@ -11,7 +11,7 @@ Os integrantes do time 79 são:
 Engenheiro - Juan Silva Nogueira\
 Engenheiro - Gustavo Rodolfo\
 Engenheiro - Gabriel França\ 
-Business - Douglas Batista\
+Business - Douglas Batista\ 
 UX - Gabriela Biserra
 
 
