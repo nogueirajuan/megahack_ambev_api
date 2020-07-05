@@ -1,5 +1,49 @@
-# megahack_ambev_api
+#Projeto time 79 - Megahack Desafio Ambev
 
-Para subir o projeto basta executar o comando
+Descrição breve sobre o nosso Projeto
 
+Neste projeto foram construídas todas as APIs utilizadas na integração do APP Magia Ambev.
+
+## Integrantes
+
+Os integrantes do time 79 são:
+
+Engenheiro - Juan Silva Nogueira
+
+Engenheiro - Gustavo Rodolfo
+
+Engenheiro - Gabriel França
+
+Business - Douglas Batista
+
+UX - Gabriela Biserra
+
+
+## Tecnologias e requisitos
+
+O projeto foi construído utilizando Java / Spring Boot e os dados estão sendo armazenados em base em memória h2.
+
+Para executar o projeto é necessário ambiente com Maven 3.x.x + e Java 8+ utilizando o comando abaixo:
+
+## Uso
+
+Para rodar o projeto, a partir do diretório raiz da aplicação basta executar o seguinte comando
+
+```bash
 mvn spring-boot:run
+```
+
+## Documentação
+
+Para ter visão de todas APIs construídas, basta acessar a url localhost:8080/swagger-ui.html
+
+## Base de dados
+
+Com a aplicação em execução, é possível consultar a base de dados acessando localhost:8080/h2-console
+
+url: jdbc:h2:mem:magiaambev
+
+usuário: time79
+
+password: megahack
+
