@@ -26,7 +26,6 @@ public class StoreProduct implements Serializable {
     private Store store;
     @ManyToOne
     @JoinColumn(name = "product_id")
-    @JsonBackReference
     private Produto product;
 
     @Column(name = "preco")
